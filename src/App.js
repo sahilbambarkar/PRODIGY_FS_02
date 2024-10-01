@@ -13,7 +13,7 @@ import Header from './components/Header';
 import { ClerkProvider, RedirectToSignIn, SignedIn, SignedOut, SignIn, SignUp } from '@clerk/clerk-react';
 
 // Use your actual Clerk Publishable Key here
-const clerkPublishableKey = <yourclerkapikey>;
+const clerkPublishableKey = 'pk_test_c2luY2VyZS1jcmF5ZmlzaC02MC5jbGVyay5hY2NvdW50cy5kZXYk';
 
 function App() {
   return (
